@@ -68,7 +68,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1252" y="387"/>
+            <point key="canvasLocation" x="3501" y="284"/>
         </scene>
         <!--My meals-->
         <scene sceneID="5zV-ZO-NxF">
@@ -114,7 +114,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="My meals" id="qtC-40-YOa">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="me4-Md-3m8"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="me4-Md-3m8">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="Bq8-7s-uSA"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PLx-Yr-e2Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
